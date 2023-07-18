@@ -1,0 +1,19 @@
+[
+    {
+        "id" :1,
+        "image": "../assets/bug1.png",
+        "title": "Bugatti Veyron",
+        "price": "$700",
+        "hp": "749hp @ 7.500rpm",
+        "mph": "0-155mph:7.7s"
+    },
+    {
+        "id" :2,
+        "image": "../assets/bug2.png",
+        "title": "Bugatti Veyron Nemesis",
+        "price": "$530",
+        "hp": "763hp @ 7.900rpm",
+        "mph": "0-155mph:5.7s"
+    }
+   
+]

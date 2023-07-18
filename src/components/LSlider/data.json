@@ -1,0 +1,42 @@
+[
+    {
+        "id" :1,
+        "image": "../assets/lam1.png",
+        "title": "2016 Lamborghini Aventador",
+        "price": "$400",
+        "hp": "549hp @ 6.500rpm",
+        "mph": "0-135mph:7.7s"
+    },
+    {
+        "id" :2,
+        "image": "../assets/lam2.png",
+        "title": "2018 Lamborghini Aventador ",
+        "price": "$530",
+        "hp": "863hp @ 8.900rpm",
+        "mph": "0-135mph:5.7s"
+    },
+    {
+        "id" :3,
+        "image": "../assets/lam3.png",
+        "title": "Lamborghini Centenario",
+        "price": "$720",
+        "hp": "949hp @ 9.500rpm",
+        "mph": "0-150mph:4.7s"
+    },
+    {
+        "id" :4,
+        "image": "../assets/lam4.png",
+        "title": "2017 Lamborghini Huracan ",
+        "price": "$950",
+        "hp": "1029hp @ 10.500rpm",
+        "mph": "0-170mph:3.7s"
+    },
+    {
+        "id" :5,
+        "image": "../assets/lam5.png",
+        "title": "Lamborghini Aventador S ",
+        "price": "$1150",
+        "hp": "1249hp @ 12.500rpm",
+        "mph": "0-190mph:3.7s"
+    }
+]

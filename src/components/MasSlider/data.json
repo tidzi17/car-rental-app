@@ -1,0 +1,38 @@
+[
+    {
+        "id" :1,
+        "image": "../assets/mas3.png",
+        "title": "Maserati GranTurismo Malibu",
+        "price": "$720",
+        "hp": "949hp @ 9.500rpm",
+        "mph": "0-150mph:4.7s"
+    },
+    {
+        "id" :2,
+        "image": "../assets/mas4.png",
+        "title": "Maserati Levante",
+        "price": "$950",
+        "hp": "1019hp @ 10.400rpm",
+        "mph": "0-190mph:3.7s"
+    },
+   
+    {
+        "id" :3,
+        "image": "../assets/mas2.png",
+        "title": "2017 Maserati Quattroporte",
+        "price": "$530",
+        "hp": "763hp @ 7.900rpm",
+        "mph": "0-155mph:5.7s"
+    },
+  
+   
+    {
+        "id" :4,
+        "image": "../assets/mas1.png",
+        "title": "2017 Maserati Ghibli",
+        "price": "$700",
+        "hp": "749hp @ 7.500rpm",
+        "mph": "0-155mph:7.7s"
+    }
+   
+]

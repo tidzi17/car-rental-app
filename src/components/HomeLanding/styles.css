@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100&display=swap'); */
+
+.landing-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* z-index: 1; */
+    border-bottom: 1px solid #d68d06;
+}
+.video-bg{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.landing-head{
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    z-index: 2;
+    padding-top: 10%;
+}
+.landing-head h1{
+    font-size: 3em;
+    font-weight: 200;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+.landing-head p{
+    width: 300px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    padding-top: 10%;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+.home-btn{
+    padding-top: 30px;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+        margin-left: 3em;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 768px)  {
+
+    .video-bg{
+        height: 50vh;
+    }
+
+    .landing-container{
+        height: 50vh;
+    }
+
+    .landing-head h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .landing-head p{
+        font-size: 1em;
+    }
+}

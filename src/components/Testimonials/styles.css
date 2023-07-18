@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+.testimonials-container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(37, 35, 35);
+   /*  border-bottom: 1px solid  #d68d06; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials-heading{
+text-align: center;
+padding-top: 5%;
+padding-bottom: 10%;
+}
+.testimonials-heading P{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(63, 62, 62);
+}
+.testimonials-heading h1{
+    font-size: 4em;
+    color: rgb(168, 163, 138);
+    font-family: 'Jacques Francois', serif;
+    
+}
+.testimonials-cards {
+    display: flex;
+    justify-content: center;
+   /*  padding-bottom: 10%; */
+  }
+  
+  .card {
+    width: 31%;
+    height: 230px;
+    background-color: rgb(175, 174, 164);
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  #firstcard {
+    margin-right: -30px;
+    z-index: 2;
+    
+  }
+  
+  #secondcard {
+    z-index: 3;
+    top: -50px;
+    background-color: rgb(117, 90, 40);
+  }
+  
+  #thirdcard {
+    margin-left: -30px;
+    z-index: 2;
+  }
+
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px ;
+  }
+  .quotes{
+    font-size: 45px;
+    color: rgb(155, 144, 144);
+  }
+  .card-text p{
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(37, 36, 36);
+  }
+  .card-photo img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    
+  }
+
+.card-photo p{
+    color: rgb(146, 139, 139);
+}
+
+.card-photo{
+  margin-top: 30px;
+}  
+
+@media only screen and (max-width: 1366px) and (min-width: 1025px)  {
+
+  .card-photo{
+    margin-top: 10px;
+  }  
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+  .card {
+    width: 32%;
+    height: 270px;
+    background-color: rgb(175, 174, 164);
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+
+}
+
+@media only screen and (max-width: 767px)  {
+  .card {
+    width: 95%;
+    height: 210px;
+    background-color: rgb(175, 174, 164);
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+
+  }
+
+  .testimonials-cards{
+    display: grid;
+  }
+
+  #firstcard, #thirdcard{
+    margin: 70px auto 0px auto;
+  }
+
+  #secondcard{
+    top: 0;
+    margin: 70px auto 0px auto;
+  }
+
+  .testimonials-heading h1{
+    font-size: 2em;
+  }
+
+  .quotes{
+    font-size: 30px;
+  }
+
+  .card-photo img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .testimonials-container{
+    padding-top: 50px;
+  }
+}

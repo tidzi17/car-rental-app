@@ -1,0 +1,38 @@
+.contact-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #D68D06;
+    
+}
+.contact-cover{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.contact-bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.contact-head{
+    margin: 0 auto;
+    z-index: 2;
+}
+.contact-head h1{
+    font-size: 3.9em;
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    animation-name: fade;
+    animation-duration: 3s;
+}

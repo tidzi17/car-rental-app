@@ -1,0 +1,432 @@
+ .book-form-container{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(37, 35, 35);
+    /* border-bottom: 1px solid orange; */
+    color: white;
+    display: grid;
+    align-items: center;
+    /* padding-top: 15%; */
+} 
+.book-form-container h1{
+  color: #f0a51a;
+  text-transform: uppercase;
+  font-family: 'Jacques Francois', serif;
+  font-weight: 100;
+  margin-left: 10%;
+  margin-bottom: -15%;
+}
+.form{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+   /*  margin-top: 2.5%; */
+   margin: 0 auto;
+      
+}
+
+.form-container{
+  margin: 0 auto;
+  width: 80%;
+  /* height: 40vh; */
+  background-color: #383737;
+  box-shadow: 10px  14px 50px rgba(0, 0, 0, 0.8);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+ 
+}
+
+.form-content{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  gap: 10px;
+  justify-content: center;
+ /*  align-items: center; */
+/*   margin-left: 10%;
+  margin-top: 2%; */
+  
+}
+
+.form-contents{
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  flex-direction:column;
+}
+
+
+label{
+  font-size: 20px;
+  font-family: 'Jacques Francois', serif;
+  color: #f0a51a;
+  
+}
+
+#car{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 95%;
+  height: 40px;
+}
+.dates{
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  gap: 5%;
+  width: 100%;
+}
+#pick-up-date{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 100%;
+  height: 40px;
+}
+#drop-of-date{
+  margin-top: 3px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+}
+.locations{
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  gap: 5%;
+  width: 100%;
+}
+#pick-up-location{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 100%;
+  height: 40px;
+}
+#drop-of-location{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 100%;
+  height: 40px;
+}
+
+#name{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 90%;
+  height: 40px;
+}
+#contact{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 90%;
+  height: 40px;
+}
+#email{
+  margin-bottom: 10px;
+  margin-top: 3px;
+  width: 90%;
+  height: 40px;
+}
+#message{
+  margin-bottom: 10%;
+  margin-top: 3px;
+  width: 100%;
+  height: 50%;
+}
+.book-form-container button{
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px;
+  background-color: #da9413;
+  cursor: pointer;
+ 
+}
+
+
+input.input-error,
+select.input-error{
+    border-color: #c61919;
+}
+.error{
+    font-size: 7px;
+    color:#c61919;
+}
+
+.book-form-container button:disabled{
+    opacity: 0.35;
+}
+.message-box{
+  width: 1000px;
+  height: 400px;
+  background-color: #212221;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /*  border-radius: 50px; */
+/*   display: grid;
+  align-items: center;
+  justify-content: left; */
+  box-shadow: 10px  14px 50px rgba(0, 0, 0, 0.8);
+  border: 1px solid rgb(255, 190, 10);
+  color: white;
+  z-index: 9999;
+}
+
+.message-heading{
+  margin-top: 2%;
+  padding-left: 7%;
+}
+.message-heading h2{
+  color: orange;
+  font-family: 'Jacques Francois', serif;
+  font-size:1.8em;
+}
+.message-heading h4{
+  font-size: 1em;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  color: rgb(136, 133, 133);
+}
+.message-info{
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+.message-info h5{
+  border-bottom: 1px solid  #7a776f;
+  font-size: 1em;
+  font-weight: 100;
+}
+.message-info p{
+  margin-bottom: 15px;
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+  .blurred {
+  filter: blur(2px);
+  
+}
+
+
+
+
+
+
+
+  
+  /* .wheel {
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  .front-wheel {
+    left: 20px;
+    
+  }
+  
+  .back-wheel {
+    right: 20px;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+
+   @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+    .form-content{
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 10px;
+      justify-content: center;
+      
+    }
+
+    #name{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 95%;
+      height: 40px;
+    }
+    #contact{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 95%;
+      height: 40px;
+    }
+    #email{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 95%;
+      height: 40px;
+    }
+    #message{
+      margin-bottom: 5%;
+      margin-top: 3px;
+      width: 95%;
+      height: 50%;
+    }
+
+    #car{
+      /* margin-bottom: 10%; */
+      margin-top: 3px;
+      width: 95%;
+      /* height: 50%; */
+    }
+
+    .dates{
+      width: 100%;
+    }
+
+    .locations{
+      width: 100%;
+    }
+
+    .form-container{
+      height: 80vh;
+    }
+
+    .message-box{
+      height: 80vh;
+      width: 100%;
+    }
+
+    .message-info{
+      grid-template-columns: 100%;
+      text-align: center;
+    }
+
+    .message-heading{
+      text-align: center;
+    }
+   }
+
+   @media only screen and (max-width: 768px)  {
+
+    .form-content{
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 10px;
+      justify-content: center;
+      
+    }
+
+    #name{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 100%;
+      height: 40px;
+    }
+    #contact{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 100%;
+      height: 40px;
+    }
+    #email{
+      margin-bottom: 10px;
+      margin-top: 3px;
+      width: 100%;
+      height: 40px;
+    }
+    #message{
+      margin-bottom: 5%;
+      margin-top: 3px;
+      width: 100%;
+      height: 50%;
+    }
+
+    #car{
+      /* margin-bottom: 10%; */
+      margin-top: 3px;
+      width: 100%;
+      /* height: 50%; */
+    }
+
+    .dates{
+      width: 100%;
+      grid-template-columns: repeat(2, 47%);
+    }
+
+    .locations{
+      width: 100%;
+      grid-template-columns: repeat(2, 47%);
+    }
+
+    .form-container{
+      height: 76vh;
+      width: 90%;
+    }
+
+    .book-form-container h1{
+      font-size: 1.5em;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .form-contents{
+      padding-top: 20px;
+    }
+
+    .form{
+      width: 100%;
+    }
+
+    .book-form-container button{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .first-column{
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .second-column{
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .third-column{
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .h1-form-p{
+      padding-bottom: 15px;
+    }
+
+
+    .message-box{
+      height: 80vh;
+      width: 100%;
+    }
+
+    .message-info{
+      grid-template-columns: 100%;
+      text-align: center;
+    }
+
+    .message-heading{
+      text-align: center;
+    }
+   }

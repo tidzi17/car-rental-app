@@ -1,0 +1,36 @@
+.contact-content-container{
+    background-color: rgb(37, 35, 35);
+    color: white;
+    display: flex;
+    
+}
+.contact-content-info{
+    flex: 1;
+    margin-top: 5%;
+    animation-name: fadee;
+    animation-duration: 3s;
+}
+.contact-content-map{
+    flex: 1;
+    animation-name: fading;
+    animation-duration: 3s;
+    /* height: 100vh; */
+}
+.contact-content-info p{
+   padding-left: 25%;
+   font-size: 20px;
+   padding-bottom: 55px;
+   font-weight: 100;
+   
+   
+}
+
+@media (max-width:767px){
+.contact-content-info p{
+    font-size: 16px;
+}
+
+.contact-head h1{
+    font-size: 2em;
+}
+}

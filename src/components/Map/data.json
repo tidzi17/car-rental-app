@@ -1,0 +1,33 @@
+[
+    {
+      "address": "21 Jump Street, New York",
+      "lat": 40.712776,
+      "lng": -74.005974
+    },
+    {
+      "address": "17 Main Street, Chicago",
+      "lat": 41.8781,
+      "lng": -87.6298
+    },
+    {
+        "address": "13 Central Awe, Atlanta",
+        "lat": 33.7489954,
+        "lng": -84.3879824
+    },
+    {
+        "address": "47 Wall Street, Dallas",
+        "lat": 32.7762719,
+        "lng": -96.7968559
+      },
+      {
+        "address": "86 Miami Ave, Miami",
+        "lat": 25.7616798,
+        "lng": -80.1917902
+      },
+      {
+        "address": "186 Avenue, Washington",
+        "lat": 38.9071923,
+        "lng": -77.0368707
+      }
+    
+  ]

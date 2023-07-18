@@ -1,0 +1,46 @@
+.models-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+    border-bottom: 1px solid orange;
+    
+}
+.models-cover{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.models-bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.models-head{
+    margin: 0 auto;
+    z-index: 2;
+}
+.models-head h1{
+    font-size: 3.9em;
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@media only screen and (max-width: 767px)  {
+    .models-head h1{
+        font-size: 2em;
+    }
+
+}

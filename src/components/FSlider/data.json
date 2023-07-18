@@ -1,0 +1,35 @@
+[
+    {
+        "id" :1,
+        "image": "../assets/fer1.png",
+        "title": "2012 Ferrari California ",
+        "price": "$700",
+        "hp": "649hp @ 7.500rpm",
+        "mph": "0-155mph:7.7s"
+    },
+    {
+        "id" :2,
+        "image": "../assets/fer2.png",
+        "title": "Ferrari 458",
+        "price": "$530",
+        "hp": "863hp @ 9.900rpm",
+        "mph": "0-155mph:5.7s"
+    },
+    {
+        "id" :3,
+        "image": "../assets/fer3.png",
+        "title": " Ferrari F12",
+        "price": "$720",
+        "hp": "949hp @ 9.500rpm",
+        "mph": "0-150mph:4.7s"
+    },
+    {
+        "id" :4,
+        "image": "../assets/fer4.png",
+        "title": "LaFerrari Maranello",
+        "price": "$950",
+        "hp": "1029hp @ 10.500rpm",
+        "mph": "0-170mph:3.7s"
+    }
+   
+]

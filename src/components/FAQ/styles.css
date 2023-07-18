@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&display=swap');
+.faq-container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(37, 35, 35);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    /* background-image: url("faq-bg.jpg"); */
+}
+.faq-content{
+    width: 70%;
+    height: 40vh;
+    margin-bottom: 200px;
+    z-index: 5;
+    
+}
+.faq-container img{
+    animation-name: fading;
+    animation-duration: 3s;
+}
+.faq-content h2{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.faq-item{
+    background-color: white;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    border: 1px solid rgb(212, 147, 24);
+    background-color: rgb(66, 65, 65);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.faq-question{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+  /*   font-weight: 100; */
+  font-family: 'Raleway', sans-serif;
+
+    
+}
+
+.faq-answer{
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    
+}
+.faq-answer.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+    border-top: 1px solid white;
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 767px)  {
+
+    .faq-question{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        font-size: 14px;
+      /*   font-weight: 100; */
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .faq-content{
+        width: 95%;
+    }
+}

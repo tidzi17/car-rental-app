@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Nunito+Sans&display=swap');
+.featured-container{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(37, 35, 35);
+   
+}
+.featured-content{
+    padding-top: 7%;
+}
+.featured-content h1{
+    font-size: 3.7em;
+    color: rgb(197, 185, 185);
+    font-family: 'Jacques Francois', serif;
+    font-weight: 200;
+    margin-bottom: 2%;
+    padding-top: 2.5%;
+    padding-left: 1%;
+    /* text-align: center; */
+}
+/* .slider-box{
+    margin-top: 10%;
+    width: 100%;
+    max-height: 500px;
+   /*  background-color: black; */
+ 
+   .slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .slide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 35px;
+    margin-left: 50px;
+  }
+  
+  .slide-image img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+   
+  }
+  .info-top{
+    width: fit-content;
+    border-top: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .info-top h2{
+    font-family: 'Kaisei Decol', serif;
+    font-size: 2em;
+    color: rgb(136, 128, 128);
+    padding-bottom: 5%;
+  }
+  .info-bottom{
+    font-family: 'Kaisei Decol', serif;
+    width: 50%;
+    display: flex;  
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 1px solid white;
+    padding-top: 11% ;
+    margin: 0 auto;
+  }
+.info-bottom p,  button{
+    color: white;
+    padding-bottom: 12px;
+}
+#price{
+    color: red;
+}
+.info-bottom button{
+    color: rgb(214, 144, 14);
+    
+}
+.info-bottom button:hover{
+    cursor: pointer;
+    color: red;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px)  {
+
+  .featured-container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(37, 35, 35);
+    padding-bottom: 100px;
+   
+}
+
+.featured-content h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.spam-container-content h2{
+  font-size: 2.5em;
+}
+
+.spam-container-content p{
+  font-size: 1em;
+}
+
+.spam-container-content{
+  width: 70%;
+  gap: 15%;
+}
+.featured-content{
+  padding-top: 20%;
+}
+
+.info-bottom{
+  width: 90%;
+}
+}
+
+@media only screen and (max-width: 767px)  {
+
+  .info-bottom{
+    font-family: 'Kaisei Decol', serif;
+    width: 90%;
+    display: flex;  
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid white;
+    padding-top: 9% ;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+
+  .info-bottom button{
+    font-size: 16px;
+  }
+
+  .featured-content h1{
+    font-size: 2.5em;
+  }
+
+  .info-top h2{
+    font-size: 1.5em;
+  }
+
+  .featured-content{
+    text-align: center;
+    /* padding-top: 60%; */
+  }
+
+  .featured-container{
+    height: 80vh;
+    padding-top: 150px;
+  }
+
+  .slider-container{
+    height: auto;
+    width: 70%;
+  }
+
+  .slide-container{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+}
+  
+  
+  
+  
+  

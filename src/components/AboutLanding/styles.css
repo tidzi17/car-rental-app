@@ -1,0 +1,45 @@
+.about-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* z-index: 1; */
+    border-bottom: 1px solid #d68d06;
+    /* margin-bottom: 500px; */
+}
+.about-cover{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.about-bg-overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+.about-head{
+    margin: 0 auto;
+    z-index: 2;
+}
+.about-head h1{
+    font-size: 3.9em;
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@media (max-width:767px){
+.about-head h1{
+    font-size: 2em;
+}
+}

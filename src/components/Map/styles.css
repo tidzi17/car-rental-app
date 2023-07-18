@@ -1,0 +1,12 @@
+.map-container {
+    background-color: yellow;
+    height: 400px;
+  }
+
+  @media only screen and (max-width: 767px)  {
+    .map-container {
+      background-color: yellow;
+      height: 300px;
+    }
+  }
+  
