@@ -2,10 +2,12 @@
     width: 100%;
     height: 70vh;
     background-color: rgb(37, 35, 35);
-    /* border-bottom: 1px solid orange; */
     color: white;
     display: grid;
     align-items: center;
+    justify-content: center;
+    margin: 2% auto;
+
     /* padding-top: 15%; */
 } 
 .book-form-container h1{
@@ -13,8 +15,9 @@
   text-transform: uppercase;
   font-family: 'Jacques Francois', serif;
   font-weight: 100;
-  margin-left: 10%;
-  margin-bottom: -15%;
+  /* margin-left: 10%; */
+  margin-bottom: 4%;
+  /* width: 100%; */
 }
 .form{
     width: 95%;
@@ -252,6 +255,9 @@ select.input-error{
 
 
    @media only screen and (max-width: 1024px) and (min-width: 768px)  {
+    .book-form-container{
+      height: 95vh;
+    }
 
     .form-content{
       display: grid;
@@ -321,6 +327,12 @@ select.input-error{
    }
 
    @media only screen and (max-width: 768px)  {
+     .book-form-container{
+      height: 95vh;
+    }
+    .form-contents{
+      height: 100%;
+    }
 
     .form-content{
       display: grid;
@@ -329,7 +341,7 @@ select.input-error{
       justify-content: center;
       
     }
-
+  
     #name{
       margin-bottom: 10px;
       margin-top: 3px;
@@ -373,7 +385,8 @@ select.input-error{
     }
 
     .form-container{
-      height: 76vh;
+      height: 85%;
+      margin-top: 0;
       width: 90%;
     }
 
@@ -381,6 +394,7 @@ select.input-error{
       font-size: 1.5em;
       margin-left: 0px;
       text-align: center;
+      margin-bottom: 0;
     }
 
     .form-contents{

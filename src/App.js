@@ -11,8 +11,9 @@ import FerrariSlider from "./components/FSlider";
 import MaseratiSlider from "./components/MasSlider/idex";
 import PorscheSlider from "./components/PorshSlider";
 import BuggatiSlider from "./components/BugSlider";
+import './App.css';
 
-function App() {
+function App () {
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -21,7 +22,7 @@ function App() {
     window.scrollTo(0, 0);
   }, [location])
   return (
-   <div>
+   <div className="App">
     <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />

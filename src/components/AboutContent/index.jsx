@@ -9,7 +9,7 @@ function AboutContent(){
     return(
         <div className="about-content-container">
             
-            <div className="about-content-first">    
+            <div className="about-content-first" id="about">    
             <p>
             <h1>#1 Lux Rental Car Company</h1>
                 Founded with a profound love for automotive
@@ -25,7 +25,7 @@ function AboutContent(){
             </p>
             <img src={photo}  />
             </div>
-            <div className="about-content-second">
+            <div className="about-content-second" id="about">
             <img src={photo2}  />
                 <p>
                 <h1>Unmatched Customer Service and Support</h1>
@@ -41,7 +41,7 @@ function AboutContent(){
                 
               
             </div>
-            <div className="about-content-third">
+            <div className="about-content-third" id="about">
                 <p>
                 <h1>Unforgettable Experiences, Tailored for You</h1>
                 <span style={{color: '#d68d06'}}>DriveXcellence</span> is more than just a luxury car rental company;

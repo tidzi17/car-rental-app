@@ -73,10 +73,10 @@ function Footer() {
             </div>
             <div className="footer-bottom">
             <div className="footer-socials">
-            <SlSocialInstagram />
-            <SlSocialLinkedin />
-            <SlSocialFacebook />
-            <SlSocialTwitter />
+            <SlSocialInstagram className="footer-socials-item"/>
+            <SlSocialLinkedin className="footer-socials-item"/>
+            <SlSocialFacebook className="footer-socials-item"/>
+            <SlSocialTwitter className="footer-socials-item"/>
             </div>
             <div>
                 <p>Copyright2023</p>

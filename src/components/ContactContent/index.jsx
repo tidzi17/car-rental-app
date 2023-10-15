@@ -9,9 +9,19 @@ function ContactContent(){
     return(
         <div className="contact-content-container">
             <div className="contact-content-info">
-                <p><AiFillClockCircle className="icon" style={{color: '#d68d06'}}/>     Working hours: 07:00AM-21:00PM</p>
-                <p><BsFillTelephoneFill className="icon" style={{color: '#d68d06'}}/>  +365 555-896</p>
-                <p><AiOutlineMail className="icon" style={{color: '#d68d06'}}/>  drivexcellence@gmail.com</p>
+            <div className="icon-text-container">
+                 <AiFillClockCircle className="icon" style={{ color: '#d68d06' }} />
+                 <p>Working hours: 07:00 AM - 21:00 PM</p>
+                 </div>
+                 <div className="icon-text-container">
+                 <BsFillTelephoneFill className="icon" style={{ color: '#d68d06' }} />
+                 <p>+365 555-896</p>
+                 </div>
+                 <div className="icon-text-container">
+                 <AiOutlineMail className="icon" style={{ color: '#d68d06' }} />
+                 <p>drivexcellence@gmail.com</p>
+                 </div>
+                
             </div>
             <div className="contact-content-map">
                 <Map />

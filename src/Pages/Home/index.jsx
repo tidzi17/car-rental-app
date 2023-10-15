@@ -10,7 +10,6 @@ import Featured from "../../components/Featured";
 function Home(){
     return(
         <div>
-            
         <HomeLanding/>
         <BookForm />
         <Featured />

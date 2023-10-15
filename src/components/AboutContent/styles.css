@@ -9,7 +9,7 @@
 
 .about-content-container p{
     /* width: 600px; */
-    font-size: 1.7em;
+    font-size: 1.5em;
     word-spacing: 10px;
     color: white;
     font-weight: 100;
@@ -44,7 +44,7 @@
      align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    border-bottom: 1px solid white;
+    
     /* height: 70vh; */
     padding-left: 2%;
 }
@@ -62,7 +62,7 @@
      align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    border-bottom: 1px solid white;
+    
     /* height: 70vh; */
     padding-left: 2%;
     padding-right: 2%;
@@ -79,7 +79,6 @@
      align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    border-bottom: 1px solid white;
     /* height: 70vh; */
     padding-left: 2%;
 }
@@ -141,6 +140,11 @@
 @media (max-width:1024px){
     .about-content-first p, .about-content-second p, .about-content-third p{
     font-size: 16px;
+    text-align: center;
+    word-spacing: 0;
+}
+#about{
+    margin-bottom: 5%;
 }
 }
 

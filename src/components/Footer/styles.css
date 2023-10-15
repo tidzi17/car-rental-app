@@ -58,10 +58,14 @@
 .footer-socials{
     display: inline-flex;
     color: rgb(214, 141, 6);
-    font-size: 20px;
+    font-size: 22px;
     gap: 20px;
+    
 }
-.footer-socials:hover{
+.footer-socials-item{
+    transition: font-size 2s;
+}
+.footer-socials-item:hover{
     cursor: pointer;
     font-size: 25px;
 }

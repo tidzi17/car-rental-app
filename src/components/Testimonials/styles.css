@@ -112,6 +112,7 @@ padding-bottom: 10%;
 }
 
 @media only screen and (max-width: 767px)  {
+ 
   .card {
     width: 95%;
     height: 210px;
@@ -123,19 +124,26 @@ padding-bottom: 10%;
 
   .testimonials-cards{
     display: grid;
+    padding-bottom: 0;
   }
 
-  #firstcard, #thirdcard{
-    margin: 70px auto 0px auto;
+  #firstcard {
+    margin: 33px auto 14px auto;
+  }
+  #thirdcard{
+    margin: 70px auto 120px auto;
   }
 
   #secondcard{
     top: 0;
-    margin: 70px auto 0px auto;
+    margin: 70px auto 20px auto;
   }
 
   .testimonials-heading h1{
     font-size: 2em;
+  }
+  .testimonials-heading{
+    padding-bottom: 0;
   }
 
   .quotes{
@@ -146,8 +154,11 @@ padding-bottom: 10%;
     width: 60px;
     height: 60px;
   }
-
+  .card-photo{
+    margin-top: 0;
+  }
   .testimonials-container{
     padding-top: 50px;
+    height: fit-content;
   }
 }

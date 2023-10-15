@@ -64,6 +64,10 @@
 }
 
 @media only screen and (max-width: 767px)  {
+    .faq-container{
+        height: fit-content;
+        padding-top: 0;
+    }
 
     .faq-question{
         color: white;
