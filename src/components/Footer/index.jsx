@@ -79,7 +79,7 @@ function Footer() {
             <SlSocialTwitter className="footer-socials-item"/>
             </div>
             <div>
-                <p>Copyright2023</p>
+                <p>&copy;Copyright2023</p>
             </div>
             </div>
            

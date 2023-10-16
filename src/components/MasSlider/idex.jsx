@@ -7,6 +7,7 @@ import mas1 from "../assets/mas3.png";
 import mas2 from "../assets/mas4.png";
 import mas3 from "../assets/mas1.png";
 import mas4 from "../assets/mas2.png";
+import { Link } from "react-router-dom";
 
 
 const MaseratiSlider = () => {
@@ -50,7 +51,7 @@ const MaseratiSlider = () => {
         <p >{currentSlide.hp}</p>
         <p>{currentSlide.mph}</p>
         
-        <button /* onClick={handleScroll} */ >Book now!</button>
+        <Link to="/"><button>Book now!</button></Link>
         
      </div>
 

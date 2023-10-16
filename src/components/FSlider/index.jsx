@@ -7,6 +7,7 @@ import fer1 from "../assets/fer1.png";
 import fer2 from "../assets/fer2.png";
 import fer3 from "../assets/fer3.png";
 import fer4 from "../assets/fer4.png";
+import { Link } from "react-router-dom";
 
 
 const FerrariSlider = () => {
@@ -49,8 +50,8 @@ const FerrariSlider = () => {
           <p id="price">{currentSlide.price}/per day</p>
           <p >{currentSlide.hp}</p>
           <p>{currentSlide.mph}</p>
+          <Link to="/"><button>Book now!</button></Link>
           
-          <button /* onClick={handleScroll} */ >Book now!</button>
           
        </div>
 

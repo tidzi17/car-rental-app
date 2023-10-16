@@ -13,6 +13,7 @@
     align-items: center;
     /* margin-left: 5%; */
     width: 95%;
+    margin: 0 5%;
    
 }
 
@@ -107,6 +108,7 @@ footer p{
         align-items: center;
         /* margin-left: 5%; */
         width: 95%;
+        margin: 0 auto;
     }
 
     .footer-menu{
@@ -142,6 +144,7 @@ footer p{
         align-items: center;
         /* margin-left: 5%; */
         width: 95%;
+        margin: 0 auto;
     }
 
     .footer-menu{

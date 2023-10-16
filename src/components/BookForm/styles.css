@@ -141,6 +141,7 @@ label{
   height: 40px;
   background-color: #da9413;
   cursor: pointer;
+  padding: 1%;
  
 }
 
@@ -332,6 +333,9 @@ select.input-error{
     }
     .form-contents{
       height: 100%;
+    }
+    .form-container{
+      box-shadow: none;
     }
 
     .form-content{

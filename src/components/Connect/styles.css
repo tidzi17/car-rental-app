@@ -19,9 +19,11 @@
     margin: 0 auto;
     padding-bottom: 50px;
 }
-.car-logos:hover{
-    animation-name: fading;
-    animation-duration: 5s;
+.logo{
+    transition: transform 0.4s ease-in-out;
+}
+.logo:hover{
+    transform: scale(1.2);
 }
 
 .subscribe-container{
@@ -39,6 +41,7 @@
     background-color: #A74318;
     width: 170px;
     height: 40px;
+    padding: 1%;
 }
 .subscribe-container-content button:hover{
     cursor: pointer;
@@ -48,6 +51,7 @@
     width: 170px;
     height: 40px;
     border: none;
+    padding: 1%;
 }
 
 .subscribe-container-content h2{
@@ -61,6 +65,7 @@
     display: flex;
     align-items: center;
     gap: 100px;
+    padding: 10px;
     
 }
 
@@ -135,7 +140,5 @@
         height: 30px;
     }
 
-    .car-logos:hover{
-        animation-name: none;
-    }
+   
 }

@@ -16,7 +16,7 @@ const Connect = () => {
             <div className="connect-container-content">
                 <div className="car-logos">
                     {logos.map((logo, index) => (
-                        <img src={logo} alt={`Logo ${index + 1}`} key={index} /* width={50} height={50}  *//>
+                        <img src={logo} alt={`Logo ${index + 1}`} key={index} className="logo"/>
                     ))}
                 </div>
                 <div className="subscribe-container" >

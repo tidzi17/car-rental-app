@@ -7,6 +7,7 @@ import por1 from "../assets/por1.png";
 import por2 from "../assets/por2.png";
 import por3 from "../assets/por3.png";
 import por4 from "../assets/por4.png";
+import { Link } from "react-router-dom";
 
 
 const PorscheSlider = () => {
@@ -50,7 +51,7 @@ const PorscheSlider = () => {
         <p >{currentSlide.hp}</p>
         <p>{currentSlide.mph}</p>
         
-        <button /* onClick={handleScroll} */ >Book now!</button>
+        <Link to="/"><button>Book now!</button></Link>
         
      </div>
 

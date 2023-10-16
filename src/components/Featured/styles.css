@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Nunito+Sans&display=swap');
 .featured-container{
     width: 100%;
-    height: 110vh;
+    height: 90vh;
     background-color: rgb(37, 35, 35);
    
 }
-.featured-content{
+/* .featured-content{
     padding-top: 7%;
-}
+} */
 .featured-content h1{
     font-size: 3.7em;
     color: rgb(197, 185, 185);
@@ -153,8 +153,8 @@
   }
 
   .featured-container{
-    height: 80vh;
-    padding-top: 150px;
+    height: 65vh;
+    padding-top: 100px;
   }
 
   .slider-container{

@@ -9,6 +9,7 @@ import lam3 from "../assets/lam3.png";
 import lam4 from "../assets/lam4.png";
 import lam5 from "../assets/lam5.png";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function LamborghiniSlider () {
 
@@ -51,7 +52,7 @@ function LamborghiniSlider () {
             <p >{currentSlide.hp}</p>
             <p>{currentSlide.mph}</p>
             
-            <button /* onClick={handleScroll} */ >Book now!</button>
+            <Link to="/"><button>Book now!</button></Link>
             
          </div>
 
