@@ -23,7 +23,6 @@
     animation-name: fading;
     animation-duration: 3s;
     opacity: 50%;
-    /* box-shadow: 0 0 20px 5px rgba(255, 165, 0, 0.2);  */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
@@ -36,16 +35,12 @@
 .about-content-first{
     
     padding-top: 5%;
-    /* height: 100vh; */
     width: 95%; 
     display: grid;
     grid-template-columns: 50% 50%;
-    /* gap: 10%;  */
      align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    
-    /* height: 70vh; */
     padding-left: 2%;
 }
 .about-content-first img{
@@ -58,12 +53,9 @@
     width: 95%; 
     display: grid;
     grid-template-columns: 50% 50%;
-    /* gap: 10%;  */
-     align-items: center;
+    align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    
-    /* height: 70vh; */
     padding-left: 2%;
     padding-right: 2%;
 }
@@ -71,15 +63,12 @@
 .about-content-third{
     
     padding-top: 5%;
-    /* height: 100vh; */
     width: 95%; 
     display: grid;
     grid-template-columns: 50% 50%;
-    /* gap: 10%;  */
-     align-items: center;
+    align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    /* height: 70vh; */
     padding-left: 2%;
 }
 .about-content-third img{

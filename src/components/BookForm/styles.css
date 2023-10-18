@@ -257,7 +257,7 @@ select.input-error{
 
    @media only screen and (max-width: 1024px) and (min-width: 768px)  {
     .book-form-container{
-      height: 95vh;
+      height: 120vh;
     }
 
     .form-content{
@@ -309,7 +309,7 @@ select.input-error{
     }
 
     .form-container{
-      height: 80vh;
+      height: 100%;
     }
 
     .message-box{
@@ -329,13 +329,14 @@ select.input-error{
 
    @media only screen and (max-width: 768px)  {
      .book-form-container{
-      height: 95vh;
+      height: 120vh;
     }
     .form-contents{
       height: 100%;
     }
     .form-container{
       box-shadow: none;
+      height: 100%;
     }
 
     .form-content{
