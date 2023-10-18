@@ -10,7 +10,7 @@
 .about-content-container p{
     /* width: 600px; */
     font-size: 1.3em;
-    word-spacing: 5px;
+   /*  word-spacing: 5px; */
     color: white;
     font-weight: 100;
     animation-name: fadee;
