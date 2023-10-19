@@ -20,7 +20,7 @@ function FAQ() {
       <div className='faq-content'>
       <h2>Frequently Asked Questions</h2>
         {faqData.map((item, i) => (
-          <div className="faq-item">
+          <div className="faq-item" key={i}>
             <div className="faq-question" onClick={() => toggle(i)}>
               <h3>{item.question}</h3>
               <span>{selected === i ? <IoIosArrowUp/> : <IoIosArrowDown /> }</span>

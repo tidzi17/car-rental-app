@@ -31,42 +31,32 @@ function Footer() {
                                 return <li className="footer-nav-item" key={e.name} onClick={() => navigate(e.url)}>{e.name}</li>
                             })
                         }
-                {/* <li className="footer-nav-item">Home</li>
-                <li className="footer-nav-item">About</li>
-                <li className="footer-nav-item">Models</li>
-                <li className="footer-nav-item">Contact</li> */}
                 </ul>
                </div>
                <div className="footer-contact">
                 <ul className="footer-contact-links">
                     <h3>Get in touch</h3>
                     {
-                        contactinfo.map((e) => {
+                        contactinfo.map((e, index) => {
                             return(
-                                <div>
+                                <div key={index}>
                                 <li className="footer-nav-item">{e.phone}</li> 
                                 <li className="footer-nav-item">{e.email}</li>
                                 </div> 
                             )
                         })
                     }
-                    {/* <li className="footer-nav-item">+365 555-896</li>
-                    <li className="footer-nav-item">drivexcellence@gmail.com</li> */}
+                   
                 </ul>
                </div>
                <div className="footer-locations">
                 <ul className="footer-locations-links">
                     <h3>Locations</h3>
                     {
-                        locations.map((e) => {
-                            return <li className="footer-nav-item">{e.addres}</li>
+                        locations.map((e, index) => {
+                            return <li className="footer-nav-item" key={index}>{e.addres}</li>
                         })
                     }
-                    {/* <li className="footer-nav-item">21.Jump Street, New York</li>
-                    <li className="footer-nav-item">17.Main Street, Chicago</li>
-                    <li className="footer-nav-item">13.Central Awe, Atlanta</li>
-                    <li className="footer-nav-item">47.Wall Street, Dallas</li>
-                    <li className="footer-nav-item">86.Miami Ave, Miami</li> */}
                 </ul>
                </div>
                </div>
